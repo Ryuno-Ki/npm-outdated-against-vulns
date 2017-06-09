@@ -1,0 +1,35 @@
+{
+  "name": "npm-outdated-against-vulns",
+  "version": "0.0.1",
+  "description": " Exploring, whether `npm outdated` can be matched with vuln db ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryuno-Ki/npm-outdated-against-vulns.git"
+  },
+  "keywords": [
+    "npm",
+    "snyk",
+    "vuln",
+    "nodesecurity",
+    "outdated"
+  ],
+  "author": "André Jaenisch",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Ryuno-Ki/npm-outdated-against-vulns/issues"
+  },
+  "homepage": "https://github.com/Ryuno-Ki/npm-outdated-against-vulns#readme",
+  "dependencies": {
+    "npm": "^5.0.3",
+    "rss-parser": "^2.9.0"
+  },
+  "engines": {
+    "npm": ">2.15",
+    "node": ">4.4"
+  }
+}
